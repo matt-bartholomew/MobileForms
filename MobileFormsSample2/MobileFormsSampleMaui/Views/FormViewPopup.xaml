@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:forms="clr-namespace:goRoam.MobileForms.Controls;assembly=goRoam.MobileForms.Maui"
+    x:Class="MobileFormsSample.Views.FormViewPopup">
+    <!--xmlns:formsShared="clr-namespace:goRoam.MobileForms.Models;assembly=goRoam.MobileForms.Maui.Shared"
+x:TypeArguments="formsShared:MobileForm"-->
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+        <Border BackgroundColor="#2196F3" Padding="24" Grid.Row="0">
+            <Label Text="Mobile Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Border>
+        <forms:FormViewer Grid.Row="1" Padding="0" x:Name="formViewer" SurveySource="{Binding Form}" Culture="{Binding Culture}" VerticalOptions="Start" />
+        <Button Grid.Row="2" Text="View Results" Clicked="Button_Clicked" />
+    </Grid>
+</ContentPage>

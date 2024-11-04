@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TapToSignLabelText">
+    <value>Tap to Sign</value>
+  </data>
+  <data name="Cancel">
+    <value>Cancel</value>
+  </data>
+  <data name="Apply">
+    <value>Apply</value>
+  </data>
+  <data name="Sign">
+    <value>Sign</value>
+  </data>
+  <data name="Ok">
+    <value>OK</value>
+  </data>
+  <data name="TakePicture">
+    <value>Take Picture</value>
+  </data>
+  <data name="PickPicture">
+    <value>Camera Roll</value>
+  </data>
+  <data name="TapToTakePicture">
+    <value>Tap to Take Picture</value>
+  </data>
+  <data name="ClearPicture">
+    <value>Clear</value>
+  </data>
+  <data name="Invalid">
+    <value>Invalid Data</value>
+  </data>
+  <data name="Required">
+    <value>Required</value>
+  </data>
+  <data name="RequiredMissing">
+    <value>Required data is missing</value>
+  </data>
+  <data name="InvalidUriFormat">
+    <value>Invalid URI</value>
+  </data>
+  <data name="InvalidEmailFormat">
+    <value>Invalid Email</value>
+  </data>
+  <data name="InvalidNumberFormat">
+    <value>Invalid Value</value>
+  </data>
+</root>

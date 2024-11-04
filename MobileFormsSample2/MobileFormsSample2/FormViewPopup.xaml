@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xct:Popup
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xct="clr-namespace:Xamarin.CommunityToolkit.UI.Views;assembly=Xamarin.CommunityToolkit"
+    xmlns:forms="clr-namespace:goRoam.MobileForms.Controls;assembly=goRoam.MobileForms"
+    xmlns:local="clr-namespace:Xamarin.CommunityToolkit.Sample.Pages.Views.Popups"
+    xmlns:formsShared="clr-namespace:goRoam.MobileForms.Models;assembly=goRoam.MobileForms.Shared"
+    x:Class="MobileFormsSample.FormViewPopup"
+    x:TypeArguments="formsShared:MobileForm"
+    Size="{x:Static local:PopupSize.Large}">
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0" Grid.Row="0">
+            <Label Text="Mobile Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <forms:FormViewer Grid.Row="1" Padding="0" x:Name="formViewer" SurveySource="{Binding Form}" Culture="{Binding Culture}" VerticalOptions="Start" />
+        <Button Grid.Row="2" Text="View Results" Clicked="Button_Clicked" />
+    </Grid>
+</xct:Popup>

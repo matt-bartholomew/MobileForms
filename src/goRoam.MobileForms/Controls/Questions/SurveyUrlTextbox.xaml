@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Grid
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+    x:Class="goRoam.MobileForms.Controls.Questions.UrlTextbox"
+    RowSpacing="0" ColumnSpacing="0" Margin="0,-5,0,0" Padding="4">
+    <Grid.Resources>
+        <ResourceDictionary>
+            <Style x:Key="InvalidEntryStyle" TargetType="Entry">
+                <!--<Setter Property="BackgroundColor" Value="Red" />
+                <Setter Property="TextColor" Value="GhostWhite"/>-->
+            </Style>
+        </ResourceDictionary>
+    </Grid.Resources>
+    <Grid.RowDefinitions>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+    </Grid.RowDefinitions>
+    <Label Grid.Row="0" Grid.Column="0" FontAttributes="Bold" Margin="0,0,0,-5">
+        <Label.FormattedText>
+            <FormattedString>
+                <Span x:Name="label" />
+                <Span x:Name="required" TextColor="Red" TextTransform="Lowercase" />
+            </FormattedString>
+        </Label.FormattedText>
+    </Label>
+    <Entry x:Name="entry" Keyboard="Url" Grid.Row="1" Grid.Column="0" Margin="{OnPlatform iOS='0,-5,0,0', Android='0,-15,0,0'}">
+        <Entry.Behaviors>
+            <xct:MultiValidationBehavior x:Name="validator" InvalidStyle="{StaticResource InvalidEntryStyle}">
+                <xct:UriValidationBehavior UriKind="Absolute" xct:MultiValidationBehavior.Error="{xct:Translate InvalidUriFormat}" />
+            </xct:MultiValidationBehavior>
+        </Entry.Behaviors>
+    </Entry>
+    <StackLayout Grid.Row="2" Grid.Column="0">
+        <Label x:Name="helper" FontSize="Micro" />
+        <Label x:Name="error" FontSize="Micro" TextColor="Red"/>
+    </StackLayout>
+</Grid>

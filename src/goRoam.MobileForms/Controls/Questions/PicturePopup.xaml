@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xct:Popup xmlns="http://xamarin.com/schemas/2014/forms"
+           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+		   xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+		   xmlns:local="clr-namespace:goRoam.MobileForms.Views.Popups"
+		   IsLightDismissEnabled="False"
+		   Size="{x:Static local:PopupSize.Small}"
+           x:Class="goRoam.MobileForms.Controls.Questions.PicturePopup">
+        <xct:Popup.Resources>
+        <ResourceDictionary>
+            <Style x:Key="PopupLayout" TargetType="StackLayout">
+                <Setter Property="Padding" Value="{OnPlatform Android=10, UWP=20, iOS=5}" />
+                <Setter Property="Spacing" Value="10" />
+            </Style>
+            <Style x:Key="CancelButton" TargetType="Button">
+                <Setter Property="VerticalOptions" Value="EndAndExpand" />
+            </Style>
+            <Style x:Key="PictureButton" TargetType="Button">
+                <Setter Property="VerticalOptions" Value="EndAndExpand" />
+                <Setter Property="TextColor" Value="GhostWhite" />
+                <Setter Property="BackgroundColor" Value="#b13b18" />
+            </Style>
+            <Style x:Key="ClearButton" TargetType="Button">
+                <Setter Property="VerticalOptions" Value="EndAndExpand" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="Red" />
+            </Style>
+        </ResourceDictionary>
+    </xct:Popup.Resources>
+    <StackLayout Orientation="Vertical" Style="{StaticResource PopupLayout}">
+        <Button x:Name="takePictureButton" Text="{xct:Translate TakePicture}" Clicked="takePictureButton_Clicked" Style="{StaticResource PictureButton}" />
+        <Button x:Name="pickPictureButton" Text="{xct:Translate PickPicture}" Clicked="pickPictureButton_Clicked" Style="{StaticResource PictureButton}" />
+        <Button x:Name="clearPictureButton" Text="{xct:Translate ClearPicture}" Clicked="clearPictureButton_Clicked" Style="{StaticResource ClearButton}" />
+        <Button x:Name="cancelButton" Text="{xct:Translate Cancel}" Clicked="cancelButton_Clicked" Style="{StaticResource CancelButton}" />
+    </StackLayout>
+</xct:Popup>

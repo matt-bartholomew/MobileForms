@@ -1,0 +1,35 @@
+{
+    "Name": "Milk Crates",
+    "Pages": [
+        {
+            "Name": "Crates Delivered/Picked-up",
+            "ReferenceNumber": 2,
+            "Questions": [
+                {
+                    "ID": "1",
+                    "ReferenceNumber": 2,
+                    "Prompt": "Number of Milk Crates Delivered",
+                    "HelperText": "",
+                    "QuestionType": "4",
+                    "IsRequired": true,
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "MinValue": 0,
+                    "MaxValue": 10,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "2",
+                    "ReferenceNumber": 3,
+                    "Prompt": "Number of Milk Crates Picked Up",
+                    "HelperText": "",
+                    "QuestionType": "4",
+                    "IsRequired": true,
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                }
+            ]
+        }
+    ]
+}

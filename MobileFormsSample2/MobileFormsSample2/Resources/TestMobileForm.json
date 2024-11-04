@@ -1,0 +1,371 @@
+{
+    "Name": "Jobsite Safety",
+    "Pages": [
+        {
+            "Name": "Location",
+            "ReferenceNumber": 2,
+            "Questions": [
+                {
+                    "QuestionType": 6,
+                    "Prompt": "Can you complete this task safely?",
+                    "HelperText": "",
+                    "ID": "999",
+                    "ReferenceNumber": "999",
+                    "Value": null,
+                    "DefaultValue": "",
+                    "IsReadOnly": false,
+                    "Options": [ "Yes", "No", "Maybe" ],
+                    "IsRequired": false
+                },
+                {
+                    "ID": "1",
+                    "ReferenceNumber": 2,
+                    "Prompt": "Spartanburg",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "2",
+                    "ReferenceNumber": 3,
+                    "Prompt": "Colombia",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "3",
+                    "ReferenceNumber": 4,
+                    "Prompt": "Charleston",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "4",
+                    "ReferenceNumber": 5,
+                    "Prompt": "Holly Springs",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "5",
+                    "ReferenceNumber": 6,
+                    "Prompt": "Charlotte",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "6",
+                    "ReferenceNumber": 7,
+                    "Prompt": "Knoxville",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "7",
+                    "ReferenceNumber": 8,
+                    "Prompt": "Atlanta",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "8",
+                    "ReferenceNumber": 77,
+                    "Prompt": "Picture 1",
+                    "HelperText": "",
+                    "QuestionType": "7",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                }
+            ]
+        },
+        {
+            "Name": "Required personal protective gear",
+            "ReferenceNumber": 3,
+            "Questions": [
+                {
+                    "ID": "37",
+                    "ReferenceNumber": 14,
+                    "Prompt": "Required PPE by customer",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "15",
+                    "ReferenceNumber": 9,
+                    "Prompt": "Gloves",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "17",
+                    "ReferenceNumber": 10,
+                    "Prompt": "Vest",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "19",
+                    "ReferenceNumber": 11,
+                    "Prompt": "Hard hat",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "21",
+                    "ReferenceNumber": 12,
+                    "Prompt": "Safety Glasses",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "23",
+                    "ReferenceNumber": 13,
+                    "Prompt": "Are there any other PPE requirements by the customer?  If so, enter them",
+                    "HelperText": "",
+                    "QuestionType": "0",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                }
+            ]
+        },
+        {
+            "Name": "Container safety",
+            "ReferenceNumber": 4,
+            "Questions": [
+                {
+                    "ID": "40",
+                    "ReferenceNumber": 15,
+                    "Prompt": "Are you able to read the site guage?",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "43",
+                    "ReferenceNumber": 16,
+                    "Prompt": "Do you need a ladder to fill the container?",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "46",
+                    "ReferenceNumber": 17,
+                    "Prompt": "Is the ladder secured to the container?",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "49",
+                    "ReferenceNumber": 18,
+                    "Prompt": "Are there any obstructions getting to the container?",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "52",
+                    "ReferenceNumber": 19,
+                    "Prompt": "Is the container located in a confined space?",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "55",
+                    "ReferenceNumber": 20,
+                    "Prompt": "Are you able to reach the opening of the container safely?",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                }
+            ]
+        },
+        {
+            "Name": "Miscellaneous",
+            "ReferenceNumber": 5,
+            "Questions": [
+                {
+                    "ID": "77",
+                    "ReferenceNumber": 21,
+                    "Prompt": "If ladder is to be used, is it free of grease, oil, and/or water?",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "81",
+                    "ReferenceNumber": 22,
+                    "Prompt": "Are the floors clean and dry in the facility?",
+                    "HelperText": "",
+                    "QuestionType": "5",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "111",
+                    "ReferenceNumber": 24,
+                    "Prompt": "Comments",
+                    "HelperText": "",
+                    "QuestionType": "0",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "116",
+                    "ReferenceNumber": 25,
+                    "Prompt": "Picture 1",
+                    "HelperText": "",
+                    "QuestionType": "7",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "121",
+                    "ReferenceNumber": 26,
+                    "Prompt": "Picture 2",
+                    "HelperText": "",
+                    "QuestionType": "7",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                },
+                {
+                    "ID": "126",
+                    "ReferenceNumber": 27,
+                    "Prompt": "Picture 3",
+                    "HelperText": "",
+                    "QuestionType": "7",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                }
+            ]
+        },
+        {
+            "Name": "Signature",
+            "ReferenceNumber": 6,
+            "Questions": [
+                {
+                    "ID": "106",
+                    "ReferenceNumber": 23,
+                    "Prompt": "Driver signature",
+                    "HelperText": "",
+                    "QuestionType": "8",
+                    "IsRequired": false,
+                    "DefaultValue": "",
+                    "Value": null,
+                    "IsReadOnly": false,
+                    "Options": [ "" ]
+                }
+            ]
+        }
+    ]
+}
